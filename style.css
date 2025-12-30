@@ -1,0 +1,83 @@
+:root {
+    /*COLORS*/
+    --index_bg: #5C251F;
+    --index_secondaryBg: #946E46;
+    --index_fontColor: #F1A63C;
+    --index_fontSecondColor: #C78F44;
+    --index_details: #E15656;
+
+    /*FONTS*/
+    --generalTitleFont: 'Metal Mania', Impact, Charcoal, sans-serif;
+    --generalTextFont: 'IM Fell French Canon', serif;
+}
+
+html {
+    width: 100%;
+    background-image: url(/the_game/gen_images/background_texture.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 50%;
+    grid-template-rows: 1fr 2fr 1fr;
+    justify-content: center;
+    gap: 50px;
+    font-family: var(--generalTextFont);
+    color: var(--index_fontSecondColor);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--generalTitleFont);
+    color: var(--index_fontColor);
+}
+    header h1 {
+        height: 20px;
+        font-size: 3rem;
+    }
+    header h3 {
+        font-size: 1.5rem;
+    }
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+    main form {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        padding: 40px;
+        font-size: 22px;
+        border: solid 3px var(--index_secondaryBg);
+        border-radius: 15px;
+    }
+        #name_form {
+            text-align: center;
+            font-family: var(--generalTextFont);
+            font-size: 20px;
+            background-color: var(--index_bg);
+            color: var(--index_fontSecondColor);
+        }
+        .input_button {
+            width: 70%;
+            height: 30px;
+            margin: 0 auto;
+            background-color: var(--index_secondaryBg);
+            color: var(--index_bg);
+            font-family: var(--generalTitleFont);
+            font-size: 20px;
+        }
+
+footer {
+    margin-top: 10%;
+    text-align: center;
+}
