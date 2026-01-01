@@ -20,7 +20,7 @@ html {
 
 body {
     display: grid;
-    grid-template-columns: 50%;
+    grid-template-columns: 70%;
     grid-template-rows: 1fr 2fr 1fr;
     justify-content: center;
     gap: 50px;
@@ -52,9 +52,15 @@ main {
     align-items: center;
     gap: 15px;
 }
+    main aside {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     main form {
         display:flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
         gap: 20px;
         padding: 40px;
@@ -62,28 +68,27 @@ main {
         border: solid 3px var(--index_secondaryBg);
         border-radius: 15px;
     }
-        #name_form {
-            text-align: center;
+        main form input {
+            width: 10%;
             font-family: var(--generalTextFont);
-            font-size: 20px;
+            font-size: 22px;
+        }
+    
+    .input_button {
+        width: 70%;
+        height: 30px;
+        margin: 0 auto;
+        background-color: var(--index_secondaryBg);
+        color: var(--index_bg);
+        font-family: var(--generalTitleFont);
+        font-size: 20px;
+        text-align: center;
+        transition: all 100ms ease-in;
+    }
+        .input_button:hover {
+            color: var(--index_fontColor);
             background-color: var(--index_bg);
-            color: var(--index_fontSecondColor);
         }
-        .input_button {
-            width: 70%;
-            height: 30px;
-            margin: 0 auto;
-            background-color: var(--index_secondaryBg);
-            color: var(--index_bg);
-            font-family: var(--generalTitleFont);
-            font-size: 20px;
-            text-align: center;
-            transition: all 100ms ease-in;
-        }
-            .input_button:hover {
-                color: var(--index_fontColor);
-                background-color: var(--index_bg);
-            }
 
 footer {
     margin-top: 10%;
