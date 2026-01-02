@@ -1,6 +1,6 @@
 <header>
-<h1>The Game</h1>
-<h3><em>Name to be decided</em></h3>
+<h1>The Curse of the Ember Spire</h1>
+<h3>A point click rogue like game</h3>
 </header>
 <body>
 <h3>🔥 Andventuring through hellish domains and trying to discover how to get out</h3>
