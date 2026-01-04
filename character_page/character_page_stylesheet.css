@@ -21,7 +21,7 @@ html {
 body {
     display: grid;
     grid-template-columns: 70%;
-    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-rows: 0.5fr 2fr 1fr;
     justify-content: center;
     gap: 50px;
     font-family: var(--generalTextFont);
@@ -58,7 +58,7 @@ main {
         justify-content: center;
         align-items: center;
     }
-    main form {
+    .general_form_display {
         display:flex;
         flex-direction: row;
         justify-content: center;
@@ -73,16 +73,23 @@ main {
             font-family: var(--generalTextFont);
             font-size: 22px;
         }
+
+        .dropdown_list {
+            width: 200px;
+            font-family: var(--generalTextFont);
+            text-align: center;
+        }
     
     .input_button {
-        width: 70%;
+        width: 40%;
         height: 30px;
-        margin: 0 auto;
+        margin: 20px auto;
         background-color: var(--index_secondaryBg);
         color: var(--index_bg);
         font-family: var(--generalTitleFont);
         font-size: 20px;
         text-align: center;
+        text-decoration: none;
         transition: all 100ms ease-in;
     }
         .input_button:hover {
@@ -91,6 +98,5 @@ main {
         }
 
 footer {
-    margin-top: 10%;
     text-align: center;
 }

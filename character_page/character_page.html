@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--link to the javascript-->
+
+    <!--link to the stylesheet-->
     <link href="character_page_stylesheet.css" rel="stylesheet">
     <!--fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=IM+Fell+French+Canon:ital@0;1&family=Metal+Mania&family=Pirata+One&display=swap" rel="stylesheet">
-    <!--icons-->
     
     <title>the game - your character</title>
 </head>
@@ -22,11 +24,11 @@
         <h2>Tell me about yourself, traveller.</h2>
 
         <aside>
-            <p>First, roll the dice to decide your status:</p>
+            <p><strong>Roll the dices to determine your status points:</strong></p>
         </aside>
 
         <h3>Your atributes</h3>
-        <form>
+        <form class="general_form_display">
             <img src="/the_game/gen_images/dice_button.png" width="30px" height="30px" alt="Dice to decide the status points">
             <label for="strength">Strength</label>
                 <input id="str_status" type="number">
@@ -42,11 +44,25 @@
         </form>
 
         <h3>Your starting equipment</h3>
-        <form>
+        <form class="general_form_display">
             <label for="mainWeapon">Main Weapon</label>
+                <select name="mainWeapon" id="mainWeapon" class="dropdown_list" required>
+                    <option value="">Choose your weapon</option> <!--placeholder - make it unable to be selected-->
+                    <option value="shortSword">Short sword</option>
+                    <option value="dagger">Dagger</option>
+                    <option value="unarmed">Unarmed</option>
+                </select>
+            <label for="initialArmor">Inicial Armor</label>
+                <select name="initialArmor" id="initialArmor" class="dropdown_list" required>
+                    <option value="">Choose your armor</option> <!--placeholder - make it unable to be selected-->
+                    <option value="shortSword">No armor</option>
+                    <option value="dagger">Rusted breast plate</option>
+                    <option value="unarmed">Used leather armor</option>
+                </select>
         </form>
+        <a href="/the_game/character_page/character_page.html" class="input_button">Moving on...</a>
     </main>
-
+<!--create a side box where the user will be able to see the character sheet with his status-->
     <footer>
         <p>All rights reserved, 2025</p>
     </footer>

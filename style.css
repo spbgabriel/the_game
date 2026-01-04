@@ -77,6 +77,7 @@ main {
             color: var(--index_bg);
             font-family: var(--generalTitleFont);
             font-size: 20px;
+            text-decoration: none;
             text-align: center;
             transition: all 100ms ease-in;
         }
