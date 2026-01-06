@@ -1,0 +1,62 @@
+:root {
+    /*COLORS*/
+    --index_bg: #5C251F;
+    --index_secondaryBg: #946E46;
+    --index_fontColor: #F1A63C;
+    --index_fontSecondColor: #C78F44;
+    --index_details: #E15656;
+
+    /*FONTS*/
+    --generalTitleFont: 'Metal Mania', Impact, Charcoal, sans-serif;
+    --generalTextFont: 'IM Fell French Canon', serif;
+}
+
+html {
+    width: 100%;
+    background-image: url(/the_game/gen_images/background_texture.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 50%;
+    grid-template-rows: auto 1fr auto;
+    justify-content: center;
+    font-family: var(--generalTextFont);
+    color: var(--index_fontSecondColor);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--generalTitleFont);
+    color: var(--index_fontColor);
+}
+    .main_title {
+        text-align: center;
+        font-size: 3rem;
+        letter-spacing: 10px;
+    }
+    .subtitle {
+        margin-top: 10px;
+        font-size: 1.5rem;
+        letter-spacing: 5px;
+    }
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    
+}
+
+/*content of the page*/
+
+footer {
+    margin-top: 0;
+    text-align: center;
+}

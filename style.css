@@ -13,17 +13,21 @@
 
 html {
     width: 100%;
-    background-image: url(/gen_images/background_texture.jpg);
+    height: 100vh;
+    overflow: hidden;
+    background-image: url(gen_images/background_texture.jpg);
     background-repeat: no-repeat;
     background-size:cover;
 }
 
 body {
+    height: 100%;
+    margin: 0;
     display: grid;
     grid-template-columns: 50%;
-    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-rows: auto 1fr auto;
     justify-content: center;
-    gap: 50px;
+    gap: 20px;
     font-family: var(--generalTextFont);
     color: var(--index_fontSecondColor);
 }
@@ -36,11 +40,12 @@ header {
     color: var(--index_fontColor);
 }
     .main_title {
-        height: 20px;
+        text-align: center;
         font-size: 3rem;
         letter-spacing: 10px;
     }
     .subtitle {
+        margin-top: 10px;
         font-size: 1.5rem;
         letter-spacing: 5px;
     }
@@ -87,6 +92,6 @@ main {
             }
 
 footer {
-    margin-top: 10%;
+    margin-top: 0;
     text-align: center;
 }

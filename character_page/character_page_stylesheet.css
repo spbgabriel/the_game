@@ -13,7 +13,7 @@
 
 html {
     width: 100%;
-    background-image: url(/gen_images/background_texture.jpg);
+    background-image: url(../gen_images/background_texture.jpg);
     background-repeat: no-repeat;
     background-size:cover;
 }
@@ -21,7 +21,7 @@ html {
 body {
     display: grid;
     grid-template-columns: 70%;
-    grid-template-rows: 0.5fr 2fr 1fr;
+    grid-template-rows: auto 1fr auto;
     justify-content: center;
     gap: 50px;
     font-family: var(--generalTextFont);
@@ -36,11 +36,11 @@ header {
     color: var(--index_fontColor);
 }
     .main_title {
-        height: 20px;
         font-size: 3rem;
         letter-spacing: 10px;
     }
     .subtitle {
+        margin-top: 10px;
         font-size: 1.5rem;
         letter-spacing: 5px;
     }
