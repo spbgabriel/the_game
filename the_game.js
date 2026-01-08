@@ -1,24 +1,24 @@
 // Dice number generator and skill points
-function rollStatusDice () {
-    let diceResult = Math.floor(Math.random() * 6);
-    console.log(diceResult + 1);
-    // Status bonus
-    if (diceResult === 1) {
-        return statBonus = 0;
-    } else if (diceResult >= 2 && diceResult <= 4) {
-        return statBonus = 1;
-    } else if (diceResult >= 5) {
-        return statBonus = 2;
-    }
-    let totalStatus = diceResult + statBonus;
-    console.log(totalStatus);
-}
 
+const rollStatusDice = () => {
+    let diceResult = Math.floor(Math.random() * 6);
+        console.log(diceResult + 1);
+        // Status bonus
+        if (diceResult === 1) {
+            return statBonus = 0;
+        } else if (diceResult >= 2 && diceResult <= 4) {
+            return statBonus = 1;
+        } else if (diceResult >= 5) {
+            return statBonus = 2;
+        }
+        let totalStatus = diceResult + statBonus;
+        console.log(totalStatus);
+}
 rollStatusDice();
 
 // Dice result evaluator
 //D10 - tests
-    function rollD10 () {
+    const rollD10 = () => {
         let d10Result = Math.floor(Math.random() * 10) + 1;
         if (d10Result === 1) {
             console.log(`${d10Result}! It's a critical failure!`);
@@ -30,12 +30,10 @@ rollStatusDice();
             console.log(`${d10Result}! Success!`);
         }
     }
-
     rollD10();
 //D6 - damage
-    function rollD6 () {
+    const rollD6 = () => {
         let rollD6 = Math.floor(Math.random() * 6) + 1;
         console.log(`Attack = ${rollD6 + statBonus}`);
     }
-
     rollD6();

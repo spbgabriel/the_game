@@ -51,10 +51,47 @@ main {
     flex-direction: column;
     justify-content: center;
     text-align: left;
-    
 }
+    #narration {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 50px;
+        margin-bottom: 20px;
+    }
+        #narration img {
+            opacity: 0.7;
+            border-radius: 30px;
+        }
+    #open_the_door {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+        #open_the_door img {
+            opacity: 0.7;
+            border-radius: 30px;
+        }
 
-/*content of the page*/
+    .input_button {
+            width: 70%;
+            height: 30px;
+            margin: 0 auto;
+            background-color: var(--index_secondaryBg);
+            color: var(--index_bg);
+            font-family: var(--generalTitleFont);
+            font-size: 20px;
+            text-decoration: none;
+            text-align: center;
+            transition: all 100ms ease-in;
+        }
+            .input_button:hover {
+                color: var(--index_fontColor);
+                background-color: var(--index_bg);
+            }
 
 footer {
     margin-top: 0;
