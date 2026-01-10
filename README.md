@@ -23,7 +23,7 @@
 
 <h3>🖼️ Screen shots</h3>
 <ul>
-  <li><img src="" alt= "screen shot of the index on a computer screen"><br>
+  <li><img src="gen_images/the_game_screenshot" alt= "screen shot of the index on a computer screen"><br>
   Screenshot for the index page</li>
 </ul>
 
