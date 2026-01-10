@@ -22,10 +22,9 @@
 </ul>
 
 <h3>🖼️ Screen shots</h3>
-<ul>
-  <li><img src="gen_images/the_game_screenshot" alt= "screen shot of the index on a computer screen"><br>
-  Screenshot for the index page</li>
-</ul>
+<img width="450" height="250" alt="the_game_screenshot" src="https://github.com/user-attachments/assets/042160c8-1321-4c96-98b5-21029edd78d9" />
+<p>Screenshot of the main page on a computer resolution.</p>
+
 
 <h3>🫂 How to collaborate</h3>
 <!--add here a step by step on how people can download the repository and make new branches.-->
