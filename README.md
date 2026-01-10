@@ -23,8 +23,8 @@
 
 <h3>🖼️ Screen shots</h3>
 <ul>
-  <li><!--screen shot computer--></li>
-  <li><!--screen shot mobile--></li>
+  <li><img src="" alt= "screen shot of the index on a computer screen"><br>
+  Screenshot for the index page</li>
 </ul>
 
 <h3>🫂 How to collaborate</h3>
