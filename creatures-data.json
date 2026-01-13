@@ -1,0 +1,12 @@
+{
+    "tier1_creatures": [
+        {
+            "id": "goblin_soldier",
+            "name": "Goblin Soldier",
+            "hp": 10,
+            "ac": 5,
+            "attack_dice": "1d6",
+            "attack_bonus": 0
+        }
+    ]
+}

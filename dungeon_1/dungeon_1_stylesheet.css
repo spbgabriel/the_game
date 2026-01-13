@@ -13,7 +13,7 @@
 
 html {
     width: 100%;
-    background-image: url(/gen_images/background_texture.jpg);
+    background-image: url(/the_game/gen_images/background_texture.jpg);
     background-repeat: no-repeat;
     background-size:cover;
 }
