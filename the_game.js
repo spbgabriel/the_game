@@ -33,7 +33,7 @@ rollStatusDice();
     rollD10();
 //D6 - damage
     const rollD6 = () => {
-        let rollD6 = Math.floor(Math.random() * 6) + 1;
+        let rollD6 = Math.floor(Math.random() * 6) + statBonus;
         console.log(`Attack = ${rollD6 + statBonus}`);
     }
     rollD6();

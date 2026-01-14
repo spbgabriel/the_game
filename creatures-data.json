@@ -7,6 +7,14 @@
             "ac": 5,
             "attack_dice": "1d6",
             "attack_bonus": 0
+        },
+        {
+            "id": "",
+            "name": "",
+            "hp": 0,
+            "ac": 0,
+            "attack_dice": "",
+            "attack_bonus": 0
         }
     ]
 }

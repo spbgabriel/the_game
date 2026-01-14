@@ -13,7 +13,7 @@
 
 html {
     width: 100%;
-    background-image: url(gen_images/background_texture.jpg);
+    background-image: url(../gen_images/background_texture.jpg);
     background-repeat: no-repeat;
     background-size:cover;
 }
@@ -52,7 +52,7 @@ main {
     justify-content: center;
     text-align: left;
 }
-    #narration {
+    .narration {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -60,7 +60,7 @@ main {
         gap: 50px;
         margin-bottom: 20px;
     }
-        #narration img {
+        .narration img {
             opacity: 0.7;
             border-radius: 30px;
         }
