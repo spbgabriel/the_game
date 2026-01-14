@@ -1,20 +1,67 @@
 {
     "tier1_creatures": [
         {
-            "id": "goblin_soldier",
+        "id": "goblin_soldier",
             "name": "Goblin Soldier",
             "hp": 10,
             "ac": 5,
             "attack_dice": "1d6",
-            "attack_bonus": 0
+            "attack_bonus": 0,
+            "special_ability": "none"
         },
         {
-            "id": "",
-            "name": "",
-            "hp": 0,
-            "ac": 0,
-            "attack_dice": "",
-            "attack_bonus": 0
+        "id": "goblin_boss",
+            "name": "Krenko, the goblin boss",
+            "hp": 28,
+            "ac": 5,
+            "attack_dice": "1d6",
+            "attack_bonus": 2,
+            "special_ability": "Reinforce: call for +2 goblins into combat each turn."
+        },
+        {
+        "id": "kobold_skirmisher",
+            "name": "Kobold Skirmisher",
+            "hp": 10,
+            "ac": 5,
+            "attack_dice": "1d6",
+            "attack_bonus": 1,
+            "special_ability": "none"
+        },
+        {
+        "id": "giant_spider_hatchling",
+            "name": "Giant Spider Hatchling",
+            "hp": 12,
+            "ac": 6,
+            "attack_dice": "none",
+            "attack_bonus": 0,
+            "special_ability": "Hatch: when in combat, takes 1 turn to become 'Giant Spider'."
+        },
+        {
+        "id": "giant_spider",
+            "name": "Giant Spider",
+            "hp": 10,
+            "ac": 4,
+            "attack_dice": "1d6",
+            "attack_bonus": 2,
+            "special_ability": "Web spit: character skip the next turn."
+        },
+        {
+        "id": "skeleton_warrior",
+            "name": "Skeleton Warrior",
+            "hp": 18,
+            "ac": 3,
+            "attack_dice": "1d6",
+            "attack_bonus": 1,
+            "special_ability": "none"
+        },
+        {
+        "id": "gray_ooze",
+            "name": "Gray Ooze",
+            "hp": 22,
+            "ac": 2,
+            "attack_dice": "1d6",
+            "attack_bonus": 0,
+            "special_ability": "If hit, the character must success a test to hold his weapon, or stays inside of the creature."
         }
     ]
 }
