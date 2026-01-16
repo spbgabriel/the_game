@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../dungeon_2-attack/dungeon_2a-stylesheet.css" rel="stylesheet">
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=IM+Fell+French+Canon:ital@0;1&family=Metal+Mania&family=Pirata+One&display=swap" rel="stylesheet">
+    <!--icons-->
+    
+    <title>The Curse of the Ember Spire - Goblin Combat</title>
+</head>
+<body>
+    <header>
+        <h1 class="main_title">The Curse of the Ember Spire</h1>
+    </header>
+    
+    <main>
+        <h3>The sound of a snapping branch is drowned out by your war cry as you burst from the dark thickets...</h3>
+        <article class="narration">
+            <p>You cast aside the safety of the shadows and throw yourself into the firelight. The damp air whistles past your ears as you charge, your boots splashing through shallow puddles. For a heartbeat, time seems to snag—you see the grease on their chins, the rust on their blades, and the sheer, paralyzed terror in their yellow eyes. You aren't just a traveler anymore; you are a storm of steel breaking upon their camp.</p>
+            <div id="second_paragraph">
+                <p>The chatter turns to high-pitched shrieks of alarm. One goblin trips over a log in his haste to stand, while another frantically kicks embers toward you to blind your advance. Their leader—a scarred brute with a stolen helm—snarls a guttural command, baring jagged teeth. They are cornered, desperate, and reaching for their jagged scimitars. The smell of woodsmoke is replaced by the sharp tang of adrenaline.</p>
+                <img src="../dungeon_2-attack/attacking_goblins.png" alt="group of goblins gathered on the bonfire" width="40%">
+            </div>
+            <div class="dice_roll">
+                <p>The first blow is yours: <em>make it count!</em></p>
+        <!--change the image of the dice for a d10-->
+                <img src="/the_game/gen_images/dice_button.png" width="50px" height="50px" alt="Roll the attack!">
+                <label for="player's attack">Your attack =</label>    
+                    <input id="str_status" type="number">
+        <!--in this part, add the JS conditional if the player took the hit-->
+            </div>
+        </article>        
+    </main>
+
+    <footer>
+        <p>All rights reserved, 2025</p>
+    </footer>
+</body>
+</html>
