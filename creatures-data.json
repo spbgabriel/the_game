@@ -63,5 +63,61 @@
             "attack_bonus": 0,
             "special_ability": "If hit, the character must success a test to hold his weapon, or stays inside of the creature."
         }
+    ],
+    "tier2_creatures": [
+        {
+            "id": "bugbear_chief",
+            "name": "Bugbear Chief",
+            "hp": 65,
+            "ac": 17,
+            "attack_dice": "1d8",
+            "attack_bonus": 5,
+            "special_ability": "Surprise Attack: If the bugbear surprises a creature, its first attack deals an extra 2d6 damage."
+        },
+        {
+            "id": "green_hag",
+            "name": "Green Hag",
+            "hp": 82,
+            "ac": 17,
+            "attack_dice": "2d8",
+            "attack_bonus": 6,
+            "special_ability": "Mimicry: Can mimic animal sounds and humanoid voices to lure prey."
+        },
+        {
+            "id": "veteran",
+            "name": "Veteran",
+            "hp": 58,
+            "ac": 17,
+            "attack_dice": "1d8",
+            "attack_bonus": 5,
+            "special_ability": "Multiattack: The veteran makes two longsword attacks on its turn."
+        },
+        {
+            "id": "displacer_beast",
+            "name": "Displacer Beast",
+            "hp": 85,
+            "ac": 13,
+            "attack_dice": "2d6",
+            "attack_bonus": 6,
+            "special_ability": "Displacement: Attacks against it have disadvantage until it is hit."
+        },
+        {
+            "id": "hell_hound",
+            "name": "Hell Hound",
+            "hp": 45,
+            "ac": 15,
+            "attack_dice": "1d8",
+            "attack_bonus": 5,
+            "special_ability": "Fire Breath: Can exhale fire in a 15-foot cone as an action."
+        },
+        {
+            "id": "chimera",
+            "name": "Chimera",
+            "hp": 114,
+            "ac": 14,
+            "attack_dice": "2d8",
+            "attack_bonus": 7,
+            "special_ability": "Fire Breath: Exhales fire in a 15-foot cone dealing 7d8 fire damage."
+        }
     ]
 }
