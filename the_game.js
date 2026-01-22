@@ -1,20 +1,19 @@
 // Dice number generator and skill points
 
-const rollStatusDice = () => {
+const rollStatusDice = (targetId) => {
     let diceResult = Math.floor(Math.random() * 6);
         console.log(diceResult + 1);
         // Status bonus
         if (diceResult === 1) {
-            return statBonus = 0;
+            statBonus = 0;
         } else if (diceResult >= 2 && diceResult <= 4) {
-            return statBonus = 1;
+            statBonus = 1;
         } else if (diceResult >= 5) {
-            return statBonus = 2;
+            statBonus = 2;
         }
         let totalStatus = diceResult + statBonus;
-        console.log(totalStatus);
+        document.getElementById(targetId).value = totalStatus;
 }
-rollStatusDice();
 
 // Dice result evaluator
 //D10 - tests

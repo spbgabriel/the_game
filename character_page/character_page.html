@@ -29,18 +29,27 @@
 
         <h3>Your atributes</h3>
         <form class="general_form_display">
-            <img src="../gen_images/dice_button.png" width="30px" height="30px" alt="Dice to decide the status points">
+
+            <img src="../gen_images/dice_button.png" width="30px" height="30px" alt="Dice" 
+                onclick="rollStatusDice('str_input')">
             <label for="strength">Strength</label>
-                <input id="str_status" type="number">
-            <img src="../gen_images/dice_button.png" width="30px" height="30px" alt="Dice to decide the status points">
+            <input id="str_input" type="number" readonly>
+
+            <img src="../gen_images/dice_button.png" width="30px" height="30px" alt="Dice" 
+                onclick="rollStatusDice('agi_input')">
             <label for="agility">Agility</label>
-                <input id="agi_status" type="number">
-            <img src="../gen_images/dice_button.png" width="30px" height="30px" alt="Dice to decide the status points">
+            <input id="agi_input" type="number" readonly>
+
+            <img src="../gen_images/dice_button.png" width="30px" height="30px" alt="Dice" 
+                onclick="rollStatusDice('wis_input')">
             <label for="wisdom">Wisdom</label>
-                <input id="wis_status" type="number">
-            <img src="../gen_images/dice_button.png" width="25px" height="25px" alt="Dice to decide the status points">
-            <label for="resistence">Resistence</label>
-                <input id="res_status" type="number">
+            <input id="wis_input" type="number" readonly>
+
+            <img src="../gen_images/dice_button.png" width="25px" height="25px" alt="Dice" 
+                onclick="rollStatusDice('res_input')">
+            <label for="resistance">Resistance</label>
+            <input id="res_input" type="number" readonly>
+            
         </form>
 
         <h3>Your starting equipment</h3>
@@ -66,5 +75,7 @@
     <footer>
         <p>All rights reserved, 2025</p>
     </footer>
+
+    <script src="/the_game/the_game.js"></script>
 </body>
 </html>
