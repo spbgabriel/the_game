@@ -1,7 +1,7 @@
 // Dice number generator and skill points
-
+let diceResult = Math.floor(Math.random() * 6) + 1;
+let statBonus = 0;
 const rollStatusDice = (targetId) => {
-    let diceResult = Math.floor(Math.random() * 6);
         console.log(diceResult + 1);
         // Status bonus
         if (diceResult === 1) {
