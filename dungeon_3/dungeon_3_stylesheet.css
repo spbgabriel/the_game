@@ -1,0 +1,41 @@
+:root {
+    /*COLORS*/
+    --index_bg: #5C251F;
+    --index_secondaryBg: #946E46;
+    --index_fontColor: #F1A63C;
+    --index_fontSecondColor: #C78F44;
+    --index_details: #E15656;
+
+    /*FONTS*/
+    --generalTitleFont: 'Metal Mania', Impact, Charcoal, sans-serif;
+    --generalTextFont: 'IM Fell French Canon', serif;
+}
+
+html {
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    background-image: url("gen_images/background_texture.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    display: grid;
+    grid-template-columns: min(90%, 1024px);
+    grid-template-rows: auto 1fr auto;
+    justify-content: center;
+    gap: 20px;
+    font-family: var(--generalTextFont);
+    color: var(--index_fontSecondColor);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--generalTitleFont);
+    color: var(--index_fontColor);
+}
